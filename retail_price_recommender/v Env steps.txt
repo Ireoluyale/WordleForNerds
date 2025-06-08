@@ -1,0 +1,8 @@
+v Env steps
+
+-run cd {path>backend}
+-run Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\env\Scripts\Activate.ps1
+-[change execution policy if needed] > Y
+-wait for (env) C:\Users\ireol\retail_price_recommender\backend> as confirmation
+
